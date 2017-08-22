@@ -55,7 +55,8 @@ fi
 # Path updates
 export PATH="$HOME/bin:$PATH";
 export PATH="$PATH:/usr/local/opt/go/libexec/bin";
-export GOPATH="/usr/local/opt/go/bin";
+export GOPATH="$HOME/go";
+export PATH="$PATH:$GOPATH/bin";
 
 # Random vars
 export NLS_LANG="AMERICAN_AMERICA.UTF8";
