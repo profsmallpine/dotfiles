@@ -12,6 +12,7 @@ alias wur="cd ~/Documents/development/bethel_music/worshipu-rails"
 alias wup="cd ~/Documents/development/bethel_music/worshipu-pyramid"
 alias farm="cd ~/Documents/development/tucker_family_farm/farm"
 alias mor="cd ~/Documents/development/gray_olive/mortgagecrm"
+alias list="cd ~/Documents/development/amz_list_builder/AMZ-LB-FE"
 
 # Python goodness
 alias pserve="pserve development.ini --reload"
