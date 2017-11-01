@@ -59,6 +59,7 @@ fi
 export PATH="$HOME/bin:$PATH";
 export PATH="$PATH:/usr/local/opt/go/libexec/bin";
 export GOPATH="$HOME/go";
+export GOBIN="$GOPATH/bin";
 export PATH="$PATH:$GOPATH/bin";
 
 # Random vars
