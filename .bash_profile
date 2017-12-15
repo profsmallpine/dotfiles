@@ -57,7 +57,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 # Localtunnel goodness
-lt() {
+localtunnel() {
   while true; do lt -p 3000 -s $1; sleep 1; done
 }
 
