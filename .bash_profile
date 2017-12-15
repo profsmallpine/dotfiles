@@ -56,6 +56,11 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
 fi
 
+# Localtunnel goodness
+lt() {
+  while true; do lt -p 3000 -s $1; sleep 1; done
+}
+
 ### Misc
 
 # Path updates
