@@ -69,6 +69,7 @@ export PATH="$PATH:/usr/local/opt/go/libexec/bin";
 export GOPATH="$HOME/go";
 export GOBIN="$GOPATH/bin";
 export PATH="$PATH:$GOPATH/bin";
+export PATH="$PATH:$(yarn global bin)";
 
 # Random vars
 export NLS_LANG="AMERICAN_AMERICA.UTF8";
