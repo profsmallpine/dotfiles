@@ -31,6 +31,7 @@ alias gserve="gin -b apw"
 
 # Random goodness
 alias popcorn="open $TMPDIR/Popcorn-Time"
+alias s="spotify"
 
 ### Init
 
