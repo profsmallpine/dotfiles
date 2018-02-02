@@ -27,7 +27,7 @@ alias reset="bundle exec rake db:reset"
 alias sunspot="bundle exec rake sunspot:solr:start"
 
 # Golang goodness
-alias gserve="gin -b server"
+alias gserve="gin -b server --path . --build cmd/server/"
 
 # Random goodness
 alias popcorn="open $TMPDIR/Popcorn-Time"
