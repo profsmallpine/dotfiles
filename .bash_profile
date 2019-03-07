@@ -15,6 +15,7 @@ alias mor="cd ~/Documents/development/gray_olive/mortgagecrm"
 alias list="cd ~/Documents/development/amz_list_builder/AMZ-LB-FE"
 alias loring="cd ~/Documents/development/loring/loring"
 alias advice="cd ~/go/src/bitbucket.org/apwmontana/apw"
+alias docs="cd ~/Documents/development/advicepay/apidocs"
 
 # Python goodness
 alias pserve="pserve development.ini --reload"
