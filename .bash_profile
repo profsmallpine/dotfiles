@@ -36,8 +36,10 @@ alias s="spotify"
 
 ### Init
 
-# Default editor
+# Defaults
 export EDITOR="code -w"
+export BASH_SILENCE_DEPRECATION_WARNING=1
+export SHELL="/bin/zsh"
 
 # Language managers
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi;
