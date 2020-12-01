@@ -37,7 +37,7 @@ alias s="spotify"
 ### Init
 
 # Default editor
-export EDITOR="atom -w"
+export EDITOR="code -w"
 
 # Language managers
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi;
@@ -172,3 +172,4 @@ export PS2="\[$ORANGE\]→ \[$RESET\]"
 
 # Only show the current directory's name in the tab
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
+export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
